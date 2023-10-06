@@ -1,0 +1,57 @@
+name: "Website_Distill"
+title: "Análise de Dados para as Ciências Sociais"
+description: |
+  Análise de Dados para as Ciências Sociais
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Introdução"
+      href: index.html
+    - text: "Programa"
+      href: Programa.html
+    - text: "Tutoriais"
+      menu:
+          - text: "1. Introdução"
+            href: Introducao.html
+          - text: "2. Abrindo e Manipulando Dados"
+            href: Abrindo_Manipulando.html
+          - text: "3. Organizando e Limpando Dados"
+            href: Limpando_Dados.html
+          - text: "4. Calculando Estatísticas Resumidas"
+            href: Estatisticas_Resumidas.html
+          - text: "5. Construindo Tabelas"
+            href: Tabelas.html
+          - text: "6. Visualização de Dados"
+            href: Graficos.html
+          - text: "7. Juntando Bancos de Dados"
+            href: Juntando_Bancos.html
+          - text: "8. Mapas e Análises Espaciais"
+            href: Mapas.html
+          - text: "9. Testes Estatísticos e Regressões"
+            href: Regressoes.html
+          - text: "10. Relatórios Reproduzíveis"
+            href: Reprodutibilidade.html
+          - text: "11. Funções e Repetição"
+            href: Repeticao.html
+          - text: "12. Análise de Texto"
+            href: Analise_Texto.html  
+    - text: "Desafios"
+      menu:
+          - text: "Desafio 1"
+            href: Desafios/Desafio_1.html
+          - text: "Desafio 2"
+            href: Desafios/Desafio_2.html
+          - text: "Desafio 3"
+            href: Desafios/Desafio_3_v6.html
+          - text: "Desafio 4"
+            href: Desafios/Desafio_4_v1.html
+          - text: "Desafio 5"
+            href: Desafios/Desafio_5_v4.html
+    - text: "Recursos"
+      href: Recursos.html
+    - text: "Projeto Final"
+      href: Projeto.html
+            
+output: 
+  distill::distill_article:
+    css: styles.css
